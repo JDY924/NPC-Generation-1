@@ -28,7 +28,7 @@ def process_dialogue(dialogue):
     messages=[
         {
             "role": "system",
-            "content": "You are a data engineer processing dialogue from a NPC. Given the dialogue, take the 5 most important parts, and summarize in a json format. Use one word to describe the general idea as the key, and more detail as the value.",
+            "content": "You are a data engineer processing dialogue from a NPC. Given the dialogue, take the most important parts, and summarize in a json format. Use one word to describe the general idea as the key, and more detail as the value.",
         },
       {
           "role": "user",

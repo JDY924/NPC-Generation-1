@@ -56,7 +56,7 @@ def npc_chat(message, history):
     
     Here is what we have said so far:
 
-    History:
+    History (Use for information, but vary responses somewhat):
     \n\n{history}\n\n
 
     From memory:
